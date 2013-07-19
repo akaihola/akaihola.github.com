@@ -20,6 +20,17 @@
                     Create example tip tracking page for this issue
                 </a>
             </p>
+            
+            <p>
+                @akaihola has worked on this task for
+                <time class="tipobug-hours" datetime="P1H,5M">
+                    1 hour and 5 minutes.
+                </time>
+                Received tips cover
+                <time class="tipbug-tipped-hours" datetime="P0H">
+                    0 hours.
+                </time>
+            </p>
 
             <form method="get"
                   action="bitcoin:1somebitcoinaddress"
@@ -31,17 +42,11 @@
                 <input type="text"
                        name="label"
                        value="tipobug: Antti Kaihola - Antti Kaihola (GitHub pages) - Create example tip tracking page for this issue">
-                <a class="tipobug-receive-address tipobug-currency-btc"
-                   href="bitcoin:1somebitcoinaddress">
-                    1somebitcoinaddress
-                    <img src="1somebitcoinaddress.png">
-                </a>
+                <img src="1somebitcoinaddress.png">
+                <input type="submit"
+                       value="Send tip">
             </span>
-
-            <time class="tipobug-hours" datetime="P1H,5M">
-                Total hours spent: 1 hour, 5 minutes
-            </time>
-
+            
             <span class="tipobug-received">
                 <img src="http://btc-received.com/1somebitcoinaddress">
             </span>
